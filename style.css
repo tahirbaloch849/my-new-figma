@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "Gillroy";
+    src: url("gilroy-semibold.ttf") format("truetype");
+    font-weight: 400;
+  }
+  
+  * {
+    font-family: "Gillroy", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .wrapper {
+    background-color: #002062;
+    display: flex;
+    margin: 0 auto;
+    min-height: 100vh;
+  
+    width: 100%;
+  }
+  
+  .form-side {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+    width: 45%;
+    justify-content: center;
+  }
+  
+  .logo-img {
+    height: 114px;
+    width: 419px;
+  }
+  
+  .form-heading {
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+  }
+  
+  .input-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .input-box {
+    align-items: center;
+    background-color: #0f2d6b;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    height: 50px;
+    padding: 5px 10px;
+    width: 350px;
+  }
+  
+  .input-box input {
+    background-color: #0f2d6b;
+    border: none;
+    color: white;
+    cursor: default;
+    flex-grow: 1;
+    outline: none;
+  }
+  
+  .forgot-text {
+    align-self: flex-end;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .bottom-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .sign-in-btn {
+    background-color: #1a4fba;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 45px;
+    padding: 5px 10px;
+    width: 350px;
+  }
+  
+  .or-divider {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    width: 350px;
+  }
+  
+  .or-divider p {
+    color: white;
+  }
+  
+  .divider-line {
+    border-top: 1px solid #9b9b9b;
+    flex-grow: 1;
+    height: 0;
+  }
+  
+  .social-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .social-item {
+    align-items: center;
+    background-color: #0f2d6b;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    height: 50px;
+    justify-content: center;
+    padding: 5px 10px;
+    width: 350px;
+  }
+  
+  .social-item p {
+    color: white;
+    width: 200px;
+  }
+  
+  .create-account {
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    width: 350px;
+  }
+  
+  .create-account p {
+    color: #9b9b9b;
+  }
+  
+  .create-account a {
+    color: #4671c6;
+    text-decoration: none;
+  }
+  
+  /* image side */
+  .image-side {
+    background-image: url(login-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 55%;
+  }
